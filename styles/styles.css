@@ -16,7 +16,7 @@ body {
     min-height: 100px;
     font-size: 10px;
     font-family: 'Raleway';
-    background-color: #F6F7D7;
+    background-color: #ffffff;
     color: #2A363B;
     padding: 0 2rem;
 }
@@ -41,6 +41,7 @@ body {
     outline: none;
     background-color: #ff990091;
     font-size: 1rem;
+    font-family: 'Montserrat';
 }
 
 .tasks-list-div {
