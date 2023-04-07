@@ -139,6 +139,16 @@ and add isDone property to false for the submitted task.
 document.getElementById("task-submit-btn").addEventListener("click", () => addTask(false));
 
 /*
+When the Enter Key is clicked, call the addTask function 
+and add isDone property to false for the submitted task. 
+*/
+document.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+        addTask(false);
+    }
+});
+
+/*
 When the Clear Task button is clicked, clear local storage 
 and the task array, then update the view. 
 */
